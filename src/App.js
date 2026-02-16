@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Mylist from './components/Mylist/Mylist';
+// import Mylist from './components/Mylist/Mylist';
+import TaskOne from './components/TaskOne/TaskOne';
 
 function App() {
   return (
     <div className="App">
-      <Mylist/>
+      <TaskOne/>
+      {/* <Mylist/> */}
     </div>
   );
 }
